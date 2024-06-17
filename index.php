@@ -21,6 +21,7 @@
         <hr>
         <label for="password">Inserisci la tua passwrod</label>
         <input type="password" name="password" id="password">
+        <button type="submit">Invia</button>
      </form>
      <!-- /FORM DI CONTATTO -->
 </body>
