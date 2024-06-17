@@ -14,36 +14,36 @@
         <div id="signup">   
         <h1 class="mr-titolo">registrati è gratis !</h1>
         
-        <form action="/" method="post">
+        <form action="dati.php" method="get">
         
         <div class="top-row">
             <div class="field-wrap">
-            <label>
+            <label for="name">
                 Nome<span class="req">*</span>
             </label>
-            <input type="text" required autocomplete="off" class="p-2" />
+            <input type="text" required autocomplete="off" class="p-2" id="name" name="name" />
             </div>
         
             <div class="field-wrap">
-            <label>
+            <label for="last-name">
                 Cognome<span class="req">*</span>
             </label>
-            <input type="text"required autocomplete="off"  class="p-2"/>
+            <input type="text"required autocomplete="off"  class="p-2" id="last-name" name="last-name"/>
             </div>
         </div>
 
         <div class="field-wrap">
-            <label>
+            <label for="email">
             Email<span class="req">*</span>
             </label>
-            <input type="email"required autocomplete="off"  class="p-2"/>
+            <input type="email"required autocomplete="off"  class="p-2"  name="email" id="email"/>
         </div>
         
         <div class="field-wrap">
-            <label>
-             Inserisci password<span class="req">*</span>
+            <label for="password">
+            Inserisci password<span class="req">*</span>
             </label>
-            <input type="password"required autocomplete="off"  class="p-2"/>
+            <input type="password"required autocomplete="off"  class="p-2" name="password" id="password"/>
         </div>
         
         <button type="submit" class="button button-block">Registrati </button>
